@@ -1,0 +1,157 @@
+/* style.css */
+
+#particles-js {
+  height: 100vh;
+  width: 100%;
+  background-color: #5608e6;
+  position: fixed;
+  z-index: -1;
+}
+
+.container-fluid {
+  padding-top: 20px;
+  text-align: center;
+  padding: inherit;
+}
+
+h1 {
+  font-size: 100px;
+  color: #ffffff;
+  margin-bottom: 3px;
+}
+
+p {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.navbar {
+  height: 50px;
+  padding: 10px;
+}
+
+.navbar-brand img {
+  height: 50px;
+
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+  height: 2px;
+  width: 20px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  padding-top: 8px;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+}
+
+.navbar-nav > li > a {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    padding: inherit;
+}
+.navbar.bg-dark {
+    background-color: #5608e6 !important;
+}
+/* Set a minimum height for the body to allow the footer to push down */
+
+
+body {
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+}
+
+/* Set the content section to grow to fill the available space */
+.container-fluid {
+flex: 1 0 auto;
+}
+
+.about-text1 {
+font-family: cursive;
+font-size: 30px;
+text-align: justify;
+margin-top: 50px;
+margin-bottom: 50px;
+padding: 70px 30px;
+max-width: 80%;
+margin: 0 auto;
+}
+.about-text2 {
+font-family: cursive;
+font-size: 26px;
+text-align: center;
+margin-top: 50px;
+margin-bottom: 50px;
+padding: 70px 30px;
+max-width: 80%;
+margin: 0 auto;
+}
+
+/* Set the footer to always appear at the bottom of the page */
+#footer {
+flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+.about-text {
+  font-size: 18px;
+  padding: 30px;
+}
+}
+
+#footer-text {
+margin-top: 0;
+margin-bottom: 1rem;
+font-size: 20px;
+}
+
+#footer {
+color: white;
+display: flex;
+background-color: #5608e6 !important;
+height: 60px;
+font-size: 20px;
+justify-content: center;
+align-items: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-top: 50px;
+}
+
+.bg-dark {
+background-color: #5608e6 !important;
+}
+
+.mt-5, .my-5 {
+margin-top: 1rem!important;
+}
+
+.pt-1, .py-1 {
+padding-top: 0rem!important;
+padding-bottom: 0.25rem!important;
+}
+
+#join-form {
+margin: 60px;
+padding: 2px 20px;
+
+}
+
+#join-form h4 {
+text-align: center;
+}
